@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,   
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "pretty":true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist/di.d.ts"
+    //"outFile":"dist/employee-microservice.d.ts"
+  },
+
+ "exclude": [
+        "node_modules",
+        "dist",
+        "typings/browser",
+        "typings/browser.d.ts"
+  ]
+}
+
