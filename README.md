@@ -1,2 +1,3 @@
 # inversify-di
-Typescript Ioc - sample for my understanding.
+
+Typescript Ioc - DID a Dependency injection sample for understanding inversify.
