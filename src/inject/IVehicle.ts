@@ -1,3 +1,3 @@
 export interface IVehicle {
-    drive():void;
+    drive(): string;
 }

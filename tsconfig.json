@@ -11,8 +11,8 @@
     "pretty":true,
     "noLib": false,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "outDir": "dist/di.d.ts"
+    "experimentalDecorators": true
+    //"outDir": "dist/di.d.ts"
     //"outFile":"dist/employee-microservice.d.ts"
   },
 

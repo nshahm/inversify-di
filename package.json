@@ -7,11 +7,10 @@
     "start": "node dist/server.js",
     "typings-update": "npm i -g typings to update",
     "ti": "typings install --save-dev --ambient",
-    "post-install": "typings install",
+    "post-install": "./node_modules/.bin/typings install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=dev ./node_modules/.bin/webpack --progress --colors --config webpack.server.config.js",
-    "build": "npm install && npm run post-install && npm run dev",
-    "build-prod": "NODE_ENV=prod ./node_modules/.bin/webpack --progress --colors --config webpack.server.config.js -p"
+    "dev": "webpack --progress --colors --config webpack.config.js",
+    "build": "npm install && npm run post-install && npm run dev"
   },
   "author": "Shahm Nattarshah",
   "license": "MIT",
@@ -23,7 +22,8 @@
     "webpack": "^1.13.0"
   },
   "dependencies": {
-    "inversify": "2.0.0-beta.1",
-    "reflect-metadata": "^0.1.3"    
+    "inversify": "^2.0.0-beta.6",
+    "inversify-dts": "^1.0.0",
+    "reflect-metadata": "^0.1.3"
   }
 }

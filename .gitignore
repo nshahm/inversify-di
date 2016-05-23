@@ -1,13 +1,4 @@
 
-
-
-
-
-
-
-
-
-
 # Logs
 logs
 *.log
@@ -24,11 +15,12 @@ coverage
 # Dependency directories
 node_modules
 typings
+!/typings/index.d.ts
 
 # Optional npm cache directory
 .npm
 
-dist
+.vscode
 
 
 
