@@ -14,7 +14,7 @@ coverage
 
 # Dependency directories
 node_modules
-typings
+typings/**/*
 !/typings/index.d.ts
 
 # Optional npm cache directory
